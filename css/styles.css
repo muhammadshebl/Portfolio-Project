@@ -1,0 +1,118 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+	align-items: center;
+	margin: auto;
+	font-family: sans-serif;
+	color: #2d3c49;
+}
+
+/***BOOTSTRAP EDITS**/
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.mb-4 {
+	margin-bottom: 0 !important;
+}
+
+h2 {
+	margin: 0;
+}
+
+.noPadding {
+	padding: 0;
+}
+
+/***HEADER SECTION**/
+
+header{
+	border-bottom: 2px #7d97ad solid;
+}
+
+.header-logo {
+	height: 54px;
+	
+}
+
+.header-title,
+.header-subtitle {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.header-title,
+.header-subtitle, 
+.featured-work {
+	font-weight: lighter;
+}
+
+.header-title {
+	font-size: 36px;
+}
+
+.header-subtitle {
+	text-align: end;
+	font-size: 28px;
+}
+
+
+
+.main-section .main-img{
+	width: 100vw;
+}
+
+/***PROJECT SECTION**/
+
+.section-title {
+	font-size: 32px;
+	text-align: left;
+	color: #7d97ad;
+	margin: 35px 15px 15px !important;
+}
+
+.projects__list {
+	padding: 0;
+	list-style: none;
+}
+
+.projects__list_cont {
+	margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects .btn {
+	opacity: 0.9;
+}
+
+/***Media Queries SECTION***/
+@media screen and (min-width: 340px) and (max-width: 850px){
+	header{
+		margin-bottom: 15px;
+	}
+
+	.header-logo {
+		margin-left: 0;
+	}
+
+	.section-title {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 850px) {
+	.header-title {
+		font-size: 55px;
+	}
+
+	.section-title {
+		font-size: 48px;
+		text-align: center;
+	}
+}
